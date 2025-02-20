@@ -1,0 +1,10 @@
+jobs:
+  Backend:
+    name: Backend
+    steps:
+      - type: gradle
+        working-directory: alarm-management
+        name: Build
+        tasks: build
+        use-gradle-wrapper: 'true'
+    enable-dependency-cache: true
