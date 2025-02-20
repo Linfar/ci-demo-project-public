@@ -8,6 +8,8 @@ jobs:
         tasks: build
         use-gradle-wrapper: 'true'
     enable-dependency-cache: true
+  Frontend:
+    name: Frontend
     steps:
       - type: script
         script-content: echo "hi!"
